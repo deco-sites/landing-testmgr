@@ -1,42 +1,286 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Header"
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "Header",
+      "name": "Matheus Gaudencio do Rego",
+      "path": "/",
+      "sections": [
+        {
+          "__resolveType": "site/sections/Header.tsx",
+          "logo": {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/986b4a5c-a720-4ccf-9ad4-367d5dce02a7",
+            "alt": "Matheus Gaudencio do Rego"
+          },
+          "navigation": {
+            "links": [
+              {
+                "label": "Sobre",
+                "url": "#about"
+              },
+              {
+                "label": "Experiência",
+                "url": "#experience"
+              },
+              {
+                "label": "Contato",
+                "url": "#contact"
+              }
+            ],
+            "buttons": [
+              {
+                "text": "Currículo",
+                "href": "#",
+                "outline": true
+              }
+            ]
+          }
+        },
+        {
+          "__resolveType": "site/sections/Hero.tsx",
+          "title": "Olá, eu sou Matheus Gaudencio do Rego",
+          "description": "Desenvolvedor na Deco.cx e ex-professor universitário, apaixonado por tecnologia e educação.",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/b2278d2d-2185-4312-9a38-9d48cab48d16",
+          "placement": "right",
+          "cta": [
+            {
+              "href": "#contact",
+              "text": "Entre em contato"
+            }
+          ]
+        },
+        {
+          "__resolveType": "site/sections/ImageWithParagraph.tsx",
+          "title": "Sobre mim",
+          "description": "Sou um desenvolvedor apaixonado por criar soluções inovadoras. Com experiência em desenvolvimento web e uma sólida base acadêmica, combino habilidades técnicas com uma abordagem pedagógica para resolver problemas complexos.",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/2f3f8d26-d075-4e4e-a58d-9ff44c8caabc",
+          "placement": "left",
+          "tagline": "Desenvolvedor & Educador"
+        },
+        {
+          "__resolveType": "site/sections/Faq.tsx",
+          "title": "Experiência",
+          "description": "Minha jornada profissional inclui:",
+          "questions": [
+            {
+              "title": "Desenvolvedor na Deco.cx",
+              "answer": "Atualmente, trabalho na Deco.cx desenvolvendo soluções web inovadoras e contribuindo para projetos de ponta."
+            },
+            {
+              "title": "Ex-professor Universitário",
+              "answer": "Lecionei disciplinas relacionadas à computação, compartilhando conhecimentos e inspirando futuros profissionais da área."
+            }
+          ]
+        },
+        {
+          "__resolveType": "site/sections/Footer.tsx",
+          "logo": {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/986b4a5c-a720-4ccf-9ad4-367d5dce02a7",
+            "alt": "Matheus Gaudencio do Rego"
+          },
+          "copyright": "© 2023 Matheus Gaudencio do Rego. Todos os direitos reservados.",
+          "social": [
+            {
+              "network": "Linkedin",
+              "href": "#"
+            },
+            {
+              "network": "Github",
+              "href": "#"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>Matheus Gaudencio do Rego :)</p>",
+      "cta": [
+        {
+          "href": "#contact",
+          "text": "Entre em contato",
+          "outline": false
+        },
+        {
+          "href": "#portfolio",
+          "text": "Ver projetos",
+          "outline": true
+        }
+      ],
+      "description": "Desenvolvedor de software na Deco.cx e ex-professor universitário. Combinando experiência acadêmica com habilidades práticas de desenvolvimento para criar soluções inovadoras em tecnologia e educação.",
+      "image": "https://example.com/matheus-profile-image.jpg",
+      "placement": "left"
+    },
+    {
+      "__resolveType": "site/sections/Logos.tsx",
+      "title": "Experiência Profissional",
+      "logos": [
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2753/b2278d2d-2270-4b61-9fcb-b0c552f21b1e",
+          "altText": "Logo da Deco.cx"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2753/df1f5a7a-37d8-4df2-8aad-17e6ee53927d",
+          "altText": "Logo de Universidade"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "Matheus Gaudencio do Rego",
+      "description": "Desenvolvedor de software na Deco.cx e ex-professor universitário, com paixão por tecnologia e educação. Combinando experiência acadêmica e profissional, busco constantemente novos desafios e oportunidades para inovar no desenvolvimento de software.",
+      "tagline": "Transformando ideias em código inovador",
+      "image": "https://example.com/matheus-gaudencio.jpg",
+      "placement": "left",
+      "cta": [
+        {
+          "href": "https://github.com/matheusgaudencio",
+          "text": "Ver projetos no GitHub",
+          "style": "Outline"
+        },
+        {
+          "href": "https://linkedin.com/in/matheusgaudencio",
+          "text": "Conectar no LinkedIn",
+          "style": "Ghost"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "placement": "right",
+      "title": "Matheus Gaudencio do Rego",
+      "description": "Desenvolvedor de software na Deco.cx com vasta experiência em tecnologia e educação. Ex-professor universitário, apaixonado por criar soluções inovadoras e compartilhar conhecimento no desenvolvimento de software.",
+      "tagline": "Transformando ideias em código inovador",
+      "image": "https://example.com/matheus-gaudencio.jpg",
+      "cta": [
+        {
+          "href": "/projetos",
+          "text": "Ver Projetos",
+          "style": "Outline"
+        },
+        {
+          "href": "/contato",
+          "text": "Entre em Contato",
+          "style": "Ghost"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "title": "Matheus Gaudencio do Rego: Desenvolvedor na Deco.cx e Ex-Professor Universitário",
+      "description": "Bem-vindo ao meu blog pessoal, onde compartilho minha jornada como desenvolvedor na Deco.cx e minhas experiências como ex-professor universitário.",
+      "posts": [
+        {
+          "title": "Minha Trajetória: Da Sala de Aula para o Desenvolvimento na Deco.cx",
+          "author": "Matheus Gaudencio do Rego",
+          "excerpt": "Neste post, compartilho minha jornada de transição da academia para o mundo do desenvolvimento de software na Deco.cx, destacando os desafios e aprendizados.",
+          "image": "https://example.com/images/transition-to-deco.jpg",
+          "date": "2023-07-01",
+          "readingTime": "6 minutos",
+          "tags": [
+            "carreira",
+            "desenvolvimento",
+            "Deco.cx",
+            "educação"
+          ]
+        },
+        {
+          "title": "Inovações na Deco.cx: Revolucionando o Desenvolvimento Web",
+          "author": "Matheus Gaudencio do Rego",
+          "excerpt": "Descubra os projetos emocionantes em que estou trabalhando na Deco.cx e como estamos transformando o cenário do desenvolvimento web.",
+          "image": "https://example.com/images/deco-innovations.jpg",
+          "date": "2023-07-08",
+          "readingTime": "7 minutos",
+          "tags": [
+            "Deco.cx",
+            "inovação",
+            "desenvolvimento web",
+            "tecnologia"
+          ]
+        },
+        {
+          "title": "Aplicando Experiências Acadêmicas no Desenvolvimento de Software",
+          "author": "Matheus Gaudencio do Rego",
+          "excerpt": "Como minha experiência como professor universitário me ajudou a me tornar um desenvolvedor mais eficiente e inovador na Deco.cx.",
+          "image": "https://example.com/images/academic-to-dev.jpg",
+          "date": "2023-07-15",
+          "readingTime": "5 minutos",
+          "tags": [
+            "educação",
+            "desenvolvimento",
+            "boas práticas",
+            "Deco.cx"
+          ]
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "arrows": true,
+      "title": "O que dizem sobre Matheus Gaudencio",
+      "slides": [
+        {
+          "content": {
+            "description": "Matheus é um desenvolvedor excepcional que traz uma perspectiva única para a Deco.cx. Sua experiência como ex-professor universitário enriquece nossa equipe e projetos.",
+            "avatar": "https://example.com/matheus-avatar.jpg",
+            "alt": "Foto de Matheus Gaudencio",
+            "name": "Colega de trabalho",
+            "position": "Desenvolvedor Sênior na Deco.cx"
+          }
+        },
+        {
+          "content": {
+            "description": "A transição de Matheus da academia para o desenvolvimento na Deco.cx demonstra sua versatilidade e paixão pela inovação tecnológica.",
+            "avatar": "https://example.com/gerente-avatar.jpg",
+            "alt": "Foto do Gerente de Projeto",
+            "name": "Gerente de Projeto",
+            "position": "Deco.cx"
+          }
+        },
+        {
+          "content": {
+            "description": "Como ex-aluno de Matheus, posso afirmar que sua dedicação ao ensino se reflete em seu trabalho na Deco.cx, trazendo clareza e profundidade aos projetos.",
+            "avatar": "https://example.com/ex-aluno-avatar.jpg",
+            "alt": "Foto de um ex-aluno",
+            "name": "Ex-aluno",
+            "position": "Desenvolvedor Junior"
+          }
+        }
+      ],
+      "dots": true,
+      "interval": 5
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx",
+      "title": "Perguntas Frequentes sobre Matheus Gaudencio",
+      "description": "Respostas para as perguntas mais comuns sobre minha experiência como desenvolvedor na Deco.cx e ex-professor universitário.",
+      "cta": {
+        "href": "/contato",
+        "text": "Entre em contato"
       },
-      {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
+      "questions": [
+        {
+          "title": "Qual é a sua experiência profissional atual?",
+          "answer": "Atualmente, sou desenvolvedor de software na Deco.cx, onde trabalho com tecnologias web modernas e soluções inovadoras para comércio digital."
+        },
+        {
+          "title": "Qual foi sua experiência acadêmica anterior?",
+          "answer": "Antes de ingressar na Deco.cx, atuei como professor universitário, lecionando disciplinas relacionadas à ciência da computação e desenvolvimento de software."
+        },
+        {
+          "title": "Quais são suas principais habilidades técnicas?",
+          "answer": "Como desenvolvedor na Deco.cx, tenho experiência em JavaScript, React, e outras tecnologias front-end e back-end relevantes para o desenvolvimento de aplicações web escaláveis e de alto desempenho."
+        },
+        {
+          "title": "Como sua experiência acadêmica contribui para seu trabalho atual?",
+          "answer": "Minha experiência como professor universitário me proporcionou habilidades valiosas em comunicação, resolução de problemas complexos e pesquisa avançada, que aplico diariamente no desenvolvimento de soluções inovadoras na Deco.cx."
+        }
+      ]
     }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
+}
