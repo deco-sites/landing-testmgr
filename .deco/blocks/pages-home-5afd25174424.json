@@ -1,5 +1,4 @@
 {
-  "name": "Home",
   "path": "/",
   "sections": [
     {
@@ -95,7 +94,7 @@
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p>Matheus Gaudencio do Rego :)</p>",
+      "title": "<p>Matheus Gaudencio do Rego :) :D</p>",
       "cta": [
         {
           "href": "#contact",
@@ -110,7 +109,7 @@
       ],
       "description": "Desenvolvedor de software na Deco.cx e ex-professor universitário. Combinando experiência acadêmica com habilidades práticas de desenvolvimento para criar soluções inovadoras em tecnologia e educação.",
       "image": "https://example.com/matheus-profile-image.jpg",
-      "placement": "left"
+      "placement": "right"
     },
     {
       "__resolveType": "site/sections/Logos.tsx",
@@ -130,7 +129,7 @@
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
       "title": "Matheus Gaudencio do Rego",
       "description": "Desenvolvedor de software na Deco.cx e ex-professor universitário, com paixão por tecnologia e educação. Combinando experiência acadêmica e profissional, busco constantemente novos desafios e oportunidades para inovar no desenvolvimento de software.",
-      "tagline": "Transformando ideias em código inovador",
+      "tagline": "Transformando ideias em código inovador!!!",
       "image": "https://example.com/matheus-gaudencio.jpg",
       "placement": "left",
       "cta": [
@@ -249,7 +248,7 @@
         }
       ],
       "dots": true,
-      "interval": 5
+      "interval": 4
     },
     {
       "__resolveType": "site/sections/Faq.tsx",
@@ -282,5 +281,6 @@
   "__resolveType": "website/pages/Page.tsx",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
-  }
+  },
+  "name": "reww"
 }
